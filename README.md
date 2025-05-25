@@ -60,10 +60,10 @@ int main(int argc, char* argv[])
     rc = semctl(sem_set_id, 0, SETVAL, sem_val
     child_pid = fork();
     switch (child_pid) {
-	case -1:	/* fork() failed */
+	case -1:	
 	    perror("fork");
 	    exit(1);
-	case 0:		/* child process here */
+	case 0:		
 	    for (i=0; i<NUM_LOOPS; i++)
 		sem_op.sem_num = 0;
 		sem_op.sem_op = -1;
