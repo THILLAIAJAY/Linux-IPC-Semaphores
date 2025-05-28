@@ -95,9 +95,9 @@ if(NUM_LOOPS>=10)    {
 ```
 ## OUTPUT
 $ ./sem.o 
-![image](https://github.com/user-attachments/assets/267430dd-a979-4894-9c89-da7b8734a9cc)
+![Screenshot 2025-05-28 172615](https://github.com/user-attachments/assets/3e982244-9be3-453f-bec8-c978f4ca422f)
 $ ipcs
 
-![image](https://github.com/user-attachments/assets/cea58c20-dbf0-42f6-8632-f0963170d997)
+![Screenshot 2025-05-28 172628](https://github.com/user-attachments/assets/fa1cdb01-5a97-4378-8420-76dc04b86d27)
 # RESULT:
 The program is executed successfully.
